@@ -6,23 +6,16 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Debug (Launch)-DemoApplication<demo>",
+            "name": "Debug (Launch)-SpringReactApplication<spring-react>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "console": "internalConsole",
             "stopOnEntry": false,
-            "mainClass": "app.Application",
-            "projectName": "demo",
-            "hostName": "localhost",
+            "mainClass": "app.SpringReactApplication",
+            "projectName": "spring-react",
+            "hostname": "localhost",
             "port": 8080,
             "args": ""
-        },
-        {
-            "type": "java",
-            "name": "Debug (Attach)",
-            "request": "attach",
-            "hostName": "localhost",
-            "port": 0
         }
     ]
 }
